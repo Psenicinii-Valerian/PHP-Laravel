@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(165,208,205);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

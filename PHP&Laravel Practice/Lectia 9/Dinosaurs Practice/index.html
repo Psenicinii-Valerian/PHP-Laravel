@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Dinosaurs</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h2>Welcome to my Dinosaurs' Shop</h2>
+    <h3>Create Data</h3>
+    <form id="form">
+        <input type="text" name="name" placeholder="Dinosaur's name">
+        <input type="number" name="price" placeholder="Dinosaur's price" step="0.001"> 
+        <input type="text" name="image" placeholder="Dinosaur's image url">
+        <button type="submit">Add</button>
+    </form>
+    <h2>Read Data</h2>
+    <div id="read"></div>
+</body>
+</html>

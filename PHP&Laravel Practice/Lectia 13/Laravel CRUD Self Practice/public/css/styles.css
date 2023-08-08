@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(234, 223, 253);
+}
+
+header {
+    background-color: rgb(241, 210, 247);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dinosaurs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.dinosaur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+img {
+    width: 370px;
+    height: 270px;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input, 
+select {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 300px;
+    height: 35px;
+    background-color: rgb(241, 207, 233);
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(225, 124, 124);
+    cursor: pointer;
+}
+
+.type {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 10px;
+}
+
+.type select {
+    width: 220px;
+}
+
+.error {
+    color: red;
+}
+
+#success {
+    text-align: center;
+    background: linear-gradient(30deg, #1E9600, #FFF200, #FF0000);
+    transition-duration: 0.3s;
+    padding: 20px 10px;
+    width: 250px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    /* centering the success message */
+    transform: translateX(-50%);
+    left: 50%;
+    top: 15px;
+}

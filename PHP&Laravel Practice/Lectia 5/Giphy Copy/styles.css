@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.upload-file {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 30px;
+}
+
+.upload-file button {
+    box-sizing: border-box;
+    padding: 8px 20px;
+    background-color: rgb(216, 244, 175);
+    border-radius: 15px;
+}
+
+.upload-file button:hover {
+    cursor: pointer;
+}
+
+.gif-msg {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gif a {
+    text-decoration: none;
+}
+
+.gifs {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.gifs img {
+    width: 450px;
+    height: 250px;
+}

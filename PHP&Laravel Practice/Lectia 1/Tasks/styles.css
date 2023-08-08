@@ -1,0 +1,101 @@
+/* task 1 */
+.task1 {
+    display: flex;
+}
+
+.variables-method-1 {
+    display: flex;
+    width: 200px;
+    height: 350px;
+    background-color: lightskyblue;
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.variables-method-2, .variables-method-3 {
+    width: 200px;
+    height: 350px;
+    padding: 20px;
+    align-items: center;
+}
+
+.variables-method-2 {
+    background-color: rgb(239, 245, 56);
+}
+
+.variables-method-3 {
+    background-color: rgb(251, 143, 255);
+}
+
+/* task 2 */
+    .task2-arr1, .task2-arr2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.simple-for, .foreach, .foreach-with-key, .simple-for-2, .foreach-2, .foreach-with-key-2 {
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+    align-items: center;
+}
+
+.simple-for {
+    background-color: rgb(251, 143, 255);
+}
+
+.foreach {
+    background-color: lightskyblue;
+}
+
+.foreach-with-key {
+    background-color: rgb(239, 245, 56);
+}
+
+.simple-for-2{
+    background-color: rgb(239, 245, 56);
+}
+
+.foreach-2 {
+    background-color: rgb(251, 143, 255);
+}
+
+.foreach-with-key-2 {
+    background-color: lightskyblue;
+}
+
+.task3-table1, .task3-table2, .task3-table3 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.cities, .cars {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    align-items: center;
+}
+
+.cities {
+    background-color: rgb(119, 250, 222);
+    border: 1px solid blue;
+}
+
+.cars {
+    background-color: rgb(254, 166, 166);
+    border: 1px solid palevioletred;
+    height: 330px;
+}
+
+.cars img, .photographs img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.photographs {
+    background-color: bisque;
+    padding: 20px;
+    border: 1px solid rgb(201, 171, 134);
+}

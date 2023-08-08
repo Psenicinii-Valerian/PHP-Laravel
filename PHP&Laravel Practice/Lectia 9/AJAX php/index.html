@@ -1,0 +1,28 @@
+<!-- HTML -> JS (AJAX) -> PHP. PHP -> JS (AJAX) -> HTML -->
+<!-- AJAX - Asynchronous JavaScript and XML -->
+<!-- AJAX - ne permite sa nu facem refresh unei pagini la transmiterea unei valori prin formular -->
+<!-- Avantaj AJAX: site-urile vor lucra mai rapid(operatiunile pe pagina) -->
+<!-- jquery - librarie de js care simplifica lucrul cu js-ul -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Practice</title>
+    <!-- cdn - conexiunea dintre jquery si proiectul nostru -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" 
+            crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1>PHP AJAX</h1>
+    <h2>Create</h2>
+    <form id="create" action="">
+        <input type="text" name="name" placeholder="Name">
+        <input type="number" name="price" placeholder="Price" step="0.01">
+        <button type="submit" name="create">Add</button>
+    </form>
+    <h2>Read</h2>
+    <div id="read"></div>
+</body>
+</html>

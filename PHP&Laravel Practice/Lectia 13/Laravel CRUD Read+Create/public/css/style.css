@@ -1,0 +1,90 @@
+* {
+    background-color: rgb(165,208,205);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0bdbd;
+    gap: 25px;
+}
+
+header a {
+    color: #0800ff;
+    text-decoration: none;
+    background: none;
+}
+
+h1, p {
+    text-align: center;
+    margin: 7px 0px;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin: auto - formularul se va pozitiona la centru */
+    margin: auto; 
+}
+
+form input,
+form button,
+form select {
+    padding: 5px 10px;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form button {
+    background-color: rgb(217, 63, 63);
+    cursor: pointer;
+}
+
+form label {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: 100px;
+    padding-bottom: 2.5px;
+}
+
+.error {
+    color: #CC0000;
+    text-decoration: dashed purple;
+    font-size: 18px;
+}
+
+.error::before {
+    content: "- ";
+}
+
+.items {
+    margin-bottom: 25px;
+}
+
+/* https://uigradients.com/#Html */
+#success {
+    background: linear-gradient(45deg, #00F260, #0575E6);
+    padding: 15px 10px;
+    color: white;
+    font-weight: bold;
+    /* rgba - rgb palette + last param - opacity */
+    /* box-shadow with params: offset-x | offset-y | blur-radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: fixed;
+    /* prin urmatoarele 2 vom centra elementul vertical pe mijloc */
+    left: 50%;
+    transform: translateX(-50%);
+    /* ca mesajul sa nu dispara brusc, ci cu o tranzitie de 0.3s */
+    transition-duration: 0.3s;
+}
